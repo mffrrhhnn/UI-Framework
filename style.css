@@ -1,0 +1,282 @@
+:root {
+    --blue: #3157b0;
+    --Btn: #22428c;
+    --grey: #EBEBEB;
+    --white: #e9e9e9;
+    --black: rgb(24, 24, 24);
+}
+
+* ::before ::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    size: 100%;
+}
+
+
+
+
+.container-fluid .header {
+    position: relative;
+    margin: auto;
+}
+
+
+
+.header1 {
+    height: 25px;
+    background-color: var(--blue);
+    position: relative;
+    display: flex;
+    left: 0;
+    right: 0;
+}
+
+.header2 {
+    height: 55px;
+    background-color: var(--grey);
+    position: relative;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.option-btn {
+    font-size: 15px;
+    background-color: var(--Btn);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 50px;
+    height: 30px;
+}
+
+.option-btn:hover,
+.main-btn:hover {
+    background-color: var(--blue);
+}
+
+.option-btn img {
+    height: 10px;
+}
+
+.logo {
+    border-style: none;
+    margin-top: -32px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.logo img {
+    width: 80px;
+    margin-right: 50px;
+}
+
+.logo h3 {
+    color: #22428c;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: -50px;
+    margin-left: 90px;
+}
+
+.logo h1 {
+    color: #22428c;
+    font-weight: bolder;
+    font-size: 29px;
+    margin-top: -15px;
+    margin-left: 90px;
+    word-spacing: 5;
+}
+
+/* cover */
+
+.cover {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cover-img {
+    background-size: 100% 100%;
+    height: auto;
+    margin: 0px;
+    position: relative;
+    cursor: pointer;
+    width: auto;
+    display: flex;
+    flex: auto;
+    flex-flow: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+
+}
+
+.main-btn {
+    background-color: var(--Btn);
+    border: none;
+    font-size: 20px;
+    letter-spacing: 7px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px 4px rgba(0, 0, 0, 0.24);
+
+}
+
+.cover-img .main-btn {
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+}
+
+
+/* service */
+
+.option {
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+.option .text {
+    margin-bottom: 50px;
+}
+
+.text h3 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.text h3 span {
+    color: var(--Btn);
+    font-weight: bold;
+}
+
+.opt {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    justify-content: end;
+}
+
+.opt img {
+    height: 45px;
+}
+
+.opt p span {
+    font-weight: bold;
+}
+
+
+/* Axa */
+
+.axa {
+    background-color: #3157b00f;
+    padding: 25px 50px;
+}
+
+.axa .heading-txt {
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.axa p {
+    padding: 0 200px;
+}
+
+.axa .main-btn {
+    margin: 25px;
+    letter-spacing: 3px;
+}
+
+
+/* form */
+
+.forms {
+    padding-top: 100px;
+}
+
+.forms .heading-txt p {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.forms .heading-txt {
+    margin-bottom: 50px;
+}
+
+.forms label {
+    font-weight: bold;
+}
+
+.forms .main-btn {
+    padding: 8px 75px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    box-shadow: none;
+    margin-bottom: 25px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.terms {
+    color: var(--blueColor);
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.validation p {
+    font-size: 14px;
+}
+
+.nt p {
+    margin: 0;
+    font-size: 14px;
+    color: rgb(130, 130, 130);
+}
+
+
+/* steps */
+
+.steps {
+    background-color: var(--grey);
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.steps img {
+    width: 125vh;
+    margin-top: 50px;
+    padding-bottom: 25px;
+}
+
+
+/* footer */
+
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: var(--blue);
+}
+
+.footer p {
+    margin: 0;
+    padding: 10px;
+    font-size: 14px;
+    color: var(--white);
+}
